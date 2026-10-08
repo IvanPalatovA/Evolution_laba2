@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="780" viewBox="0 0 900 780">
+  <style>
+    text { font-family: Arial, sans-serif; font-size: 18px; fill: #1f2933; }
+    .box { fill: #eff6ff; stroke: #2563eb; stroke-width: 2; rx: 10; }
+    .decision { fill: #fef3c7; stroke: #d97706; stroke-width: 2; }
+    .arrow { stroke: #374151; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#374151"/>
+    </marker>
+  </defs>
+
+  <rect class="box" x="300" y="25" width="300" height="56"/>
+  <text x="450" y="60" text-anchor="middle">Начало: данные, config, seed</text>
+
+  <path class="arrow" d="M450 81 V115"/>
+  <rect class="box" x="260" y="115" width="380" height="64"/>
+  <text x="450" y="142" text-anchor="middle">Создать начальную популяцию</text>
+  <text x="450" y="166" text-anchor="middle">и оценить качество планов</text>
+
+  <path class="arrow" d="M450 179 V213"/>
+  <polygon class="decision" points="450,213 600,267 450,321 300,267"/>
+  <text x="450" y="262" text-anchor="middle">Достигнуто 200</text>
+  <text x="450" y="286" text-anchor="middle">поколений?</text>
+
+  <path class="arrow" d="M300 267 H135 V385 H260"/>
+  <text x="184" y="255" text-anchor="middle">нет</text>
+  <rect class="box" x="260" y="352" width="380" height="66"/>
+  <text x="450" y="379" text-anchor="middle">Турнирный выбор родителей,</text>
+  <text x="450" y="403" text-anchor="middle">кроссовер и мутация</text>
+
+  <path class="arrow" d="M450 418 V452"/>
+  <rect class="box" x="260" y="452" width="380" height="66"/>
+  <text x="450" y="479" text-anchor="middle">Ремонт ограничений</text>
+  <text x="450" y="503" text-anchor="middle">или расчёт штрафа</text>
+
+  <path class="arrow" d="M450 518 V552"/>
+  <rect class="box" x="260" y="552" width="380" height="66"/>
+  <text x="450" y="579" text-anchor="middle">Оценить потомков, сохранить</text>
+  <text x="450" y="603" text-anchor="middle">две лучшие особи, обновить поколение</text>
+
+  <path class="arrow" d="M640 585 H760 V267 H600"/>
+
+  <path class="arrow" d="M450 321 V675"/>
+  <text x="470" y="345">да</text>
+  <rect class="box" x="260" y="675" width="380" height="64"/>
+  <text x="450" y="702" text-anchor="middle">Выдать лучший допустимый</text>
+  <text x="450" y="726" text-anchor="middle">план закупки</text>
+</svg>

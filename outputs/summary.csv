@@ -1,0 +1,5 @@
+scenario,scenario_name,best_score,mean_score,median_score,std_score,worst_score,mean_cost,all_runs_feasible
+repair_redistribute,Ремонт + перераспределение,13720,13718.00,13720.00,6.16,13700,94966.95,True
+penalty_redistribute,Штрафы + перераспределение,13695,13502.75,13572.00,176.18,13080,94974.35,True
+repair_reset,Ремонт + сброс одной позиции,13720,13718.20,13720.00,4.85,13700,94977.45,True
+random_search,Случайный допустимый поиск,10796,10312.55,10341.00,259.15,9820,93547.75,True

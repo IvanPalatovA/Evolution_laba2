@@ -1,0 +1,307 @@
+{
+  "description": "Синтетические данные о месячных запасах расходных материалов.",
+  "generation_seed": 2026,
+  "budget": 95000,
+  "materials": [
+    {
+      "name": "Бумага A4",
+      "unit": "пач.",
+      "unit_price": 140,
+      "current_stock": 2,
+      "minimum_stock": 9,
+      "desired_stock": 16,
+      "maximum_stock": 18,
+      "priority": 4
+    },
+    {
+      "name": "Ручки шариковые",
+      "unit": "уп.",
+      "unit_price": 538,
+      "current_stock": 4,
+      "minimum_stock": 11,
+      "desired_stock": 18,
+      "maximum_stock": 23,
+      "priority": 10
+    },
+    {
+      "name": "Карандаши",
+      "unit": "уп.",
+      "unit_price": 360,
+      "current_stock": 3,
+      "minimum_stock": 10,
+      "desired_stock": 16,
+      "maximum_stock": 19,
+      "priority": 1
+    },
+    {
+      "name": "Ластики",
+      "unit": "шт.",
+      "unit_price": 394,
+      "current_stock": 0,
+      "minimum_stock": 3,
+      "desired_stock": 8,
+      "maximum_stock": 10,
+      "priority": 8
+    },
+    {
+      "name": "Маркеры",
+      "unit": "уп.",
+      "unit_price": 85,
+      "current_stock": 3,
+      "minimum_stock": 8,
+      "desired_stock": 12,
+      "maximum_stock": 17,
+      "priority": 5
+    },
+    {
+      "name": "Скотч",
+      "unit": "шт.",
+      "unit_price": 258,
+      "current_stock": 2,
+      "minimum_stock": 8,
+      "desired_stock": 16,
+      "maximum_stock": 18,
+      "priority": 6
+    },
+    {
+      "name": "Клей-карандаш",
+      "unit": "шт.",
+      "unit_price": 125,
+      "current_stock": 4,
+      "minimum_stock": 11,
+      "desired_stock": 16,
+      "maximum_stock": 20,
+      "priority": 8
+    },
+    {
+      "name": "Скобы для степлера",
+      "unit": "уп.",
+      "unit_price": 152,
+      "current_stock": 4,
+      "minimum_stock": 9,
+      "desired_stock": 12,
+      "maximum_stock": 16,
+      "priority": 6
+    },
+    {
+      "name": "Файлы-вкладыши",
+      "unit": "уп.",
+      "unit_price": 316,
+      "current_stock": 3,
+      "minimum_stock": 6,
+      "desired_stock": 12,
+      "maximum_stock": 17,
+      "priority": 2
+    },
+    {
+      "name": "Папки-регистраторы",
+      "unit": "шт.",
+      "unit_price": 297,
+      "current_stock": 4,
+      "minimum_stock": 11,
+      "desired_stock": 17,
+      "maximum_stock": 22,
+      "priority": 9
+    },
+    {
+      "name": "Картриджи чёрные",
+      "unit": "шт.",
+      "unit_price": 2464,
+      "current_stock": 3,
+      "minimum_stock": 10,
+      "desired_stock": 16,
+      "maximum_stock": 18,
+      "priority": 10
+    },
+    {
+      "name": "Картриджи цветные",
+      "unit": "шт.",
+      "unit_price": 2384,
+      "current_stock": 1,
+      "minimum_stock": 4,
+      "desired_stock": 12,
+      "maximum_stock": 14,
+      "priority": 10
+    },
+    {
+      "name": "Батарейки AA",
+      "unit": "уп.",
+      "unit_price": 299,
+      "current_stock": 3,
+      "minimum_stock": 7,
+      "desired_stock": 13,
+      "maximum_stock": 16,
+      "priority": 2
+    },
+    {
+      "name": "Перчатки одноразовые",
+      "unit": "уп.",
+      "unit_price": 400,
+      "current_stock": 3,
+      "minimum_stock": 9,
+      "desired_stock": 17,
+      "maximum_stock": 21,
+      "priority": 9
+    },
+    {
+      "name": "Влажные салфетки",
+      "unit": "уп.",
+      "unit_price": 285,
+      "current_stock": 2,
+      "minimum_stock": 9,
+      "desired_stock": 17,
+      "maximum_stock": 22,
+      "priority": 7
+    },
+    {
+      "name": "Средство для мытья",
+      "unit": "л",
+      "unit_price": 301,
+      "current_stock": 1,
+      "minimum_stock": 6,
+      "desired_stock": 11,
+      "maximum_stock": 13,
+      "priority": 1
+    },
+    {
+      "name": "Пакеты для мусора",
+      "unit": "уп.",
+      "unit_price": 156,
+      "current_stock": 4,
+      "minimum_stock": 10,
+      "desired_stock": 17,
+      "maximum_stock": 22,
+      "priority": 6
+    },
+    {
+      "name": "Тетради",
+      "unit": "уп.",
+      "unit_price": 182,
+      "current_stock": 2,
+      "minimum_stock": 8,
+      "desired_stock": 14,
+      "maximum_stock": 19,
+      "priority": 7
+    },
+    {
+      "name": "Степлеры",
+      "unit": "шт.",
+      "unit_price": 365,
+      "current_stock": 0,
+      "minimum_stock": 5,
+      "desired_stock": 10,
+      "maximum_stock": 15,
+      "priority": 2
+    },
+    {
+      "name": "Линейки",
+      "unit": "шт.",
+      "unit_price": 304,
+      "current_stock": 4,
+      "minimum_stock": 9,
+      "desired_stock": 15,
+      "maximum_stock": 18,
+      "priority": 7
+    },
+    {
+      "name": "Ножницы",
+      "unit": "шт.",
+      "unit_price": 511,
+      "current_stock": 3,
+      "minimum_stock": 6,
+      "desired_stock": 14,
+      "maximum_stock": 18,
+      "priority": 8
+    },
+    {
+      "name": "Блокноты",
+      "unit": "шт.",
+      "unit_price": 269,
+      "current_stock": 0,
+      "minimum_stock": 4,
+      "desired_stock": 12,
+      "maximum_stock": 17,
+      "priority": 3
+    },
+    {
+      "name": "Канцелярские ножи",
+      "unit": "шт.",
+      "unit_price": 310,
+      "current_stock": 0,
+      "minimum_stock": 3,
+      "desired_stock": 6,
+      "maximum_stock": 11,
+      "priority": 10
+    },
+    {
+      "name": "Корректоры",
+      "unit": "шт.",
+      "unit_price": 359,
+      "current_stock": 0,
+      "minimum_stock": 7,
+      "desired_stock": 11,
+      "maximum_stock": 14,
+      "priority": 2
+    },
+    {
+      "name": "Кисти",
+      "unit": "уп.",
+      "unit_price": 397,
+      "current_stock": 0,
+      "minimum_stock": 7,
+      "desired_stock": 12,
+      "maximum_stock": 16,
+      "priority": 3
+    },
+    {
+      "name": "Гуашь",
+      "unit": "уп.",
+      "unit_price": 82,
+      "current_stock": 2,
+      "minimum_stock": 9,
+      "desired_stock": 16,
+      "maximum_stock": 21,
+      "priority": 3
+    },
+    {
+      "name": "Пластилин",
+      "unit": "уп.",
+      "unit_price": 359,
+      "current_stock": 1,
+      "minimum_stock": 7,
+      "desired_stock": 14,
+      "maximum_stock": 17,
+      "priority": 10
+    },
+    {
+      "name": "Цветная бумага",
+      "unit": "уп.",
+      "unit_price": 528,
+      "current_stock": 4,
+      "minimum_stock": 9,
+      "desired_stock": 12,
+      "maximum_stock": 17,
+      "priority": 3
+    },
+    {
+      "name": "Бумажные полотенца",
+      "unit": "уп.",
+      "unit_price": 149,
+      "current_stock": 4,
+      "minimum_stock": 9,
+      "desired_stock": 16,
+      "maximum_stock": 21,
+      "priority": 7
+    },
+    {
+      "name": "Антисептик",
+      "unit": "л",
+      "unit_price": 493,
+      "current_stock": 1,
+      "minimum_stock": 8,
+      "desired_stock": 12,
+      "maximum_stock": 17,
+      "priority": 1
+    }
+  ]
+}

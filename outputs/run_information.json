@@ -1,0 +1,19 @@
+{
+  "data_generation_seed": 2026,
+  "experiment_config": {
+    "population_size": 60,
+    "generations": 200,
+    "crossover_probability": 0.85,
+    "mutation_probability": 0.35,
+    "tournament_size": 3,
+    "elite_count": 2,
+    "penalty_per_ruble": 10,
+    "penalty_per_missing_unit": 1000,
+    "runs": 20,
+    "base_seed": 1000
+  },
+  "ga_evaluations_per_run": 11660,
+  "random_search_evaluations_per_run": 11660,
+  "best_scenario": "Ремонт + перераспределение",
+  "best_seed": 1000
+}
